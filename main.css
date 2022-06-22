@@ -11,11 +11,11 @@ main p {
     font-family: 'Roboto', sans-serif;
 }
 
+/*Header stylen*/
 header {
     text-align: center;
 }
 
-/*Header stylen*/
 img.banner {
     width: 105%;
     max-height: 400px;
@@ -91,6 +91,35 @@ img.banner {
 
 /*Startseite*/
 
+p {
+    line-height: 1.9;
+}
+
+.tm-hr {
+    width: 240px;
+    border-top: 3px solid #1c642a;
+    margin: 0;
+}
+
+
+.container-fluid { max-width: 1480px; }
+
+.tm-intro { max-width: 580px; }
+h4 { font-size: 1.5rem; }
+
+.tm-strategy-box { 
+    display: flex; 
+    align-items: flex-start;
+}
+
+.tm-strategy-img { margin-right: 30px; }
+.tm-strategy-text { max-width: 480px; }
+.mb-7 { margin-bottom: 140px; }
+.mt-6 { margin-top: 90px; }
+.mt-7 { margin-top: 140px; }
+
+.tm-bg-gray { background-color: #e6e6e6; }
+.tm-box { padding: 50px; }
 
 /*Interaktive Karte*/
 #map {
