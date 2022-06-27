@@ -115,6 +115,7 @@ async function loadRadrouten_Tirol(url) {
 }
 loadRadrouten_Tirol("data/Radrouten_Tirol.geojson");
 
+// Legende Biketrails
 var Legend = new L.control.Legend({
     position: "topleft",
     collapsed: true,
